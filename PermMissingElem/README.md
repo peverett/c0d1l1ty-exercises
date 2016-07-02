@@ -5,10 +5,10 @@ Zero-indexed array A contains integers in the range 1..(N+1). This means that:
 - The array contains all the numbers of an arithmetic sequence.
 - Except one of the numbers in that sequence is missing.
 
-The task is to determine the missing2dd sequence number.
+The task is to determine the missing sequence number.
 
 Example:
-- For the array A = [ 2, 3, 1, 5 ] and N = 5
+- For the array A = [ 2, 3, 1, 5 ] and N = 4
 - The missing number is 4 in the sequence of 1, 2, 3, (4), 5.
 
 ##My solution
@@ -20,9 +20,9 @@ sequence](http://hotmath.com/hotmath_help/topics/sum-of-the-first-n-terms-of-an-
 2. loop through N elements of A and subtract them from the sum
 3. Return what is left, which should be the missing number in the sequence.
 
-Since the N is in the range 1..100,000 calculate the sum use the `long long`
-type. Convert back to `int` to return because by then the value should be less
-or equal to the maximum N+1.
+Since the N is in the range 1..100,000 calculate the sum using the `long long`
+type. Convert back to `int` to return, by then the sum (missing number) should
+be less or equal to the maximum N+1.
 
 ## Test Cases
 
