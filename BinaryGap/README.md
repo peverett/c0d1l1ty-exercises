@@ -1,8 +1,8 @@
 # c0d1l1ty Lesson 1
 ## Exercise 1: [BinaryGap](https://codility.com/programmers/task/binary_gap/)
 
-The task is to count that longest gap of zeros in the binary representation
-of a number.
+The task is to count that longest gap of zeros (0) bounded on both sides by a
+one (1) in the binary representation of a number.
 
 For example;
     N = 5144, in binary is 0b1010000011000.
