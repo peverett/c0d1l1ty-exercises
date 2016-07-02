@@ -22,8 +22,6 @@ round_up = (dividend + divisor - 1)/divisor;
 
 ## Test Cases
 
-Note that N must always be an odd number.
-
 X, Y and D are in the range 1..1,000,000,000, so worst case must allow for that.
 
 1. Worst Case
