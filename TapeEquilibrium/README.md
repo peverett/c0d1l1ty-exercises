@@ -6,13 +6,13 @@ two, find the difference between those two parts and return the minimum
 difference found.
 
 Example:
-    - A = [3, 1, 2, 4, 3]
-    - Differences:
+    * A = [3, 1, 2, 4, 3]
+    * Differences:
         * p = 1, difference = | 3 - 10 | = 7
         * p = 2, difference = | 4 - 9 | = 5
         * p = 3, difference = | 6 - 7 | = 1
         * p = 4, difference = | 10 - 3| = 7
-     - The lowest difference is 1.
+     * The lowest difference is 1.
 
 Hints:
     - Worst-case time complexity is O(N) so the calculation must be done in
