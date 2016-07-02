@@ -14,7 +14,7 @@ struct Results solution(int A[], int N, int K)
     result.A = (int *)malloc(N * sizeof(int));
     result.N = N;
 
-    /* Map the position in the resultult array by offset of K, mod N. */
+    /* Map the position in the result array by offset of K, mod N. */
     for (int i=0; i<N; i++) {
         result.A[(i+K)%N] = A[i];
     }
