@@ -17,3 +17,7 @@ For example;
    2. If the bottom bit is 1, then if the gap count is the longest count yet
        store it. Reset the gap count to 0.
 4. Return the longest gap.
+
+## Score
+My solution scored 100% for correctness. This exercise is not measured for
+efficiency
