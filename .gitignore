@@ -1,0 +1,10 @@
+# Ignore build directories.
+build-*/
+# Ignore vim backup files
+*~
+# Ignore Qt autosave files
+*.autosave
+# Ignore Qt project and distribution files
+*.pri
+*.pro
+*.pro.user
