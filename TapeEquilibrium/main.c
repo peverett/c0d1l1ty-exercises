@@ -18,7 +18,7 @@ int solution(int A[], int N)
         left_sum += A[i];
         right_sum -= A[i];
         difference = abs(right_sum - left_sum);
-        if (abs(right_sum - left_sum) < lowest_difference)
+        if (difference < lowest_difference)
             lowest_difference = difference;
     }
     return lowest_difference;
