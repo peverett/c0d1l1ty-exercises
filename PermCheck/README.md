@@ -23,8 +23,10 @@ have scored well (but see Note below).
 
 Not mentioned in the task description but not explicitly discounted:
 - array A can contain duplicate values.
+
 Explcitly stated:
 - a value can > N
+
 However, if either case occurs, the permutation cannot be valid. This provides
 a simpler solution where calculating the arithmetic sequence of 1..N is not
 needed.
