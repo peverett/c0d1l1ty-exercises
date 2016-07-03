@@ -9,9 +9,9 @@ The zero-indexed array A contains N integers representing the fallen leaves and
 their X position, the index is the second that leaf fell.
 
 For example;
-    - For inputs: X = 5, A = [1, 3, 1, 4, 2, 3, 5, 4], N = 8
-    - The answer is 6 (seconds) as it is when the 6th leaf at position 5
-    falls that the frog can cross.
+- For inputs: X = 5, A = [1, 3, 1, 4, 2, 3, 5, 4], N = 8
+- The answer is 6 (seconds) as it is when the 6th leaf at position 5
+falls that the frog can cross.
 
 Hints:
 
@@ -31,7 +31,6 @@ The frog's path across the river is another arithmetic sequence.
         * if sum is 0 return the index value of the current element.
         * set count[ current element ] to 1
 5. Loop ended, Return -1, froggie ain't made it.
-
 
 ## Test Cases
 
