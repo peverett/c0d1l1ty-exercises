@@ -10,8 +10,8 @@ their X position, the index is the second that leaf fell.
 
 For example;
 - For inputs: X = 5, A = [1, 3, 1, 4, 2, 3, 5, 4], N = 8
-- The answer is 6 (seconds) as it is when the 6th leaf at position 5
-falls that the frog can cross.
+- The answer is 6 (seconds) as it is when the 7th leaf (6 in the index)
+at position 5 falls that the frog can cross.
 
 Hints:
 
