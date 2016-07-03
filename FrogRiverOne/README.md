@@ -48,9 +48,9 @@ The frog's path across the river is another arithmetic sequence.
     - Expected: -1
 5. Max X and N - frog can cross.
     - Inputs: X = 100000, A = [1 .. 100000], N = 100000
-    - Expected: 100000
+    - Expected: 99999
 6. Max X and N - frog cannot cross.
-    - Inputs: X = 100000, A = [1 .. 99999, 99999], N = 100000
+    - Inputs: X = 100000, A = [1 .. 665, 777, 667 .. 100000], N = 100000
     - Expected: -1
 
 ## Score
