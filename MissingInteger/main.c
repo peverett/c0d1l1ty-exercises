@@ -59,7 +59,7 @@ int main(void)
         testmax[i] = i + 1;
     }
 
-    printf("PermCheck\n");
+    printf("MissingInteger\n");
 
     // N = 1, min pos int is N + 1
     test_case(test0, 1,  2);
