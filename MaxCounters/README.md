@@ -34,8 +34,8 @@ The expected worst-case time complexity of O(N+M) indicates that the solution
 should use a single iteration across the input array A and the counter array
 result.C.
 
-The trick to achieving this is to use a form of (lazy initialisation)[https://en.wikipedia.org/wiki/Lazy_initialization];
-Only apply the Max Counter when is is greater than the current counter value.
+The trick to achieving this is to use a form of [lazy initialisation](https://en.wikipedia.org/wiki/Lazy_initialization).
+Only apply the Max Counter when it's greater than the current counter value.
 After the input array A has been processed, apply the Max Counter to all
 elements that are less than that value.
 
