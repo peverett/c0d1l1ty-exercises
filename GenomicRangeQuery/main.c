@@ -4,7 +4,7 @@
 
 struct Results {
     int *A;
-    int C;
+    int M;
 };
 
 int get_nuc_map(char c) {
@@ -24,7 +24,7 @@ struct Results solution(char *S, int P[], int Q[], int M) {
 
     // Allocate and initialise results
     result.A = (int *)malloc(M * sizeof(int));
-    result.C = M;
+    result.M = M;
 
     // Allocate postfix sums for the postition of the next nucleotide.
     // Intialise element[N] to -1, for each.
@@ -99,16 +99,16 @@ void test_case(char *S, int P[], int Q[], int M, struct Results *exp_res)
     res = solution(S, P, Q, M);
 
     printf("Result: ");
-    print_array( 'A', res.A, 'C', res.C);
+    print_array( 'A', res.A, 'C', res.M);
 
     if (exp_res) {
         printf("Expected: ");
-        print_array('A', exp_res->A, 'C', exp_res->C);
+        print_array('A', exp_res->A, 'C', exp_res->M);
 
-        if (exp_res->C != res.C)
+        if (exp_res->M != res.M)
             fail = 1;
         else {
-            for(int i=0; i< res.C; i++) {
+            for(int i=0; i< res.M; i++) {
                 if (exp_res->A[i] != res.A[i]) {
                     fail = 1;
                     break;

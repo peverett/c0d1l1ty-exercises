@@ -24,13 +24,13 @@ is O(N) beyond input storage.
 This one really stumped me for a while. The trick is to use postfix count for
 each nucleotide of it's last index position.
 
-For example, with the example given, use 4 arrays, one for each nucleotide, and
-then process the genom string into those arrays such that the last postion of
+With the example given, use 4 arrays, one for each nucleotide, and
+then process the genom string into those arrays such that the last position of
 each type of nucleotide is recorded for that index. This is done postfix i.e.
 make the arrays N+1 and set the last element -1. Then process the Genome string
 from the back to front.
 
-For the example the postfix sums for the example should be as follows:
+For the example, the postfix sums should be as follows:
 ```
     nuc_A[] = [  1,  1,  6,  6,  6,  6, -1 ]
     nuc_C[] = [  0,  3,  3,  3,  4, -1, -1 ]
