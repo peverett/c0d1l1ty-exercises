@@ -15,8 +15,6 @@ struct Results solution(int N, int A[], int M) {
     result.C = (int *)calloc(N, sizeof(int));
     result.L = N;
 
-    printf("Intialised\n");
-
     // Loop through all elements of array A
     for (int i=0; i<M; i++) {
         // If current element == N+1
@@ -38,7 +36,6 @@ struct Results solution(int N, int A[], int M) {
                 highest_count = result.C[A[i]-1];
         }
     }
-    printf("Processed\n");
 
     // Loop through all the counters
     for (int i=0; i<N; i++) {
@@ -47,7 +44,6 @@ struct Results solution(int N, int A[], int M) {
             // Make the counter equal to the Max Count.
             result.C[i] = max_count;
     }
-
 
     return result;
 }

@@ -1,4 +1,4 @@
-# c0d1l1ty Lesson 4: Counting Elements
+# cod1l1ty Lesson 4: Counting Elements
 ## Exercise 4: [MaxCounters](https://codility.com/programmers/task/max_counters/)
 
 Write a function:
