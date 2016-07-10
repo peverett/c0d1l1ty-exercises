@@ -29,9 +29,9 @@ myself. Still took a couple of goes to get 100% though.
 2. If N < 3 return 0, can't be a triangle with less than 3 sides.
 3. Sort the array A.
 4. Loop for P through array A from 0 to N-3
-    1. Loop for Q through array A from P to N-2
-        1 R = Q+1
-        2 if A[P] + A[Q] > A[R] return 1
+    * Loop for Q through array A from P to N-2
+        1. R = Q+1
+        2. if A[P] + A[Q] > A[R] return 1
 5. If the loops complete, there is no triangle, return 0
 
 How does this work?
