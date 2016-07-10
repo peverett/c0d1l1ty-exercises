@@ -63,7 +63,7 @@ void test_case(int A[], int N, int exp_res)
 {
     int res, res1;
 
-    printf("Inputs: ");
+    printf("\nInputs: ");
     print_array('A', A, 'N', N);
 
     res = solution(A, N);
