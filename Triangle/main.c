@@ -54,20 +54,6 @@ void print_array( char array_legend, int arr[], char len_legend, int len)
     printf("], %c = %d\n", len_legend, len);
 }
 
-void triangle(int N)
-{
-    // All the valid numbers from 1 to N that make a triangle
-    for (int p=1; p<=N; p++) {
-        for (int q=p; q<=N; q++) {
-            for (int r=q; r<=N; r++) {
-                if (p+q > r && q+r > p && r+p > q)
-                    printf("P = %d, Q = %d, R = %d\n", p, q, r);
-            }
-        }
-    }
-}
-
-
 void test_case(int A[], int N, int exp_res)
 {
     int res;
@@ -96,8 +82,6 @@ int main(void)
     int test5[] = {2147483647, 2147483647, 2147483647};
     int test6[] = {2, 2147483646, 2147483647};
     int testmax[max];
-
-    //triangle(10);
 
     test_case(test0, sizeof(test0)/sizeof(int), 0);
     test_case(test1, sizeof(test1)/sizeof(int), 0);

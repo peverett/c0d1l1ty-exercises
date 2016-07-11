@@ -1,4 +1,4 @@
-# cod1l1ty Lesson 6: Sorting
+# c0d1l1ty Lesson 6: Sorting
 ## Exercise 1: [Triangle](https://codility.com/programmers/task/triangle/)
 
 A zero-indexed array A consisting of N integers is given. A truplet (P, Q, R) is
