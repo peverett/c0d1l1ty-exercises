@@ -34,8 +34,8 @@ For the example, the postfix sums should be as follows:
 ```
     nuc_A[] = [  1,  1,  6,  6,  6,  6, -1 ]
     nuc_C[] = [  0,  3,  3,  3,  4, -1, -1 ]
-    nic_G[] = [  2,  2,  2, -1, -1, -1, -1 ]
-    nic_T[] = [  5,  5,  5,  5,  5, -1, -1 ]
+    nuc_G[] = [  2,  2,  2, -1, -1, -1, -1 ]
+    nuc_T[] = [  5,  5,  5,  5,  5, -1, -1 ]
 ```
 
 After processing the postfix sums, process the slices. The minimal impact well
